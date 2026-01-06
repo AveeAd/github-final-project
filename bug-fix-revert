@@ -1,0 +1,8 @@
+ theia@theia-aveead99:/home/project/mcino-Introduction-to-Git-and-GitHub$ 
+git revert -m 1 HEAD
+[bug-fix-revert e251352] Revert "Merge branch 'bug-fix-typo'"
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ 
+ theia@theia-aveead99:/home/project/mcino-Introduction-to-Git-and-GitHub$ 
+curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/4097 | jq -r '.head.repo.clone_url'
+https://github.com/AveeAd/mcino-Introduction-to-Git-and-GitHub.git
