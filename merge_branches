@@ -1,0 +1,33 @@
+theia@theia-aveead99:/home/project/mcino-Introduction-to-Git-and-GitHub$ 
+git checkout bug-fix-typo
+Switched to branch 'bug-fix-typo'
+theia@theia-aveead99:/home/project/mcino-Introduction-to-Git-and-GitHub$ 
+git add .
+theia@theia-aveead99:/home/project/mcino-Introduction-to-Git-and-GitHub$ 
+git commit -m "Fixed typo"
+[bug-fix-typo b49c21b] Fixed typo
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+theia@theia-aveead99:/home/project/mcino-Introduction-to-Git-and-GitHub$ 
+git push origin bug-fix-typo
+Username for 'https://github.com': AveeAd
+Password for 'https://AveeAd@github.com': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 302 bytes | 302.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/AveeAd/mcino-Introduction-to-Git-and-GitHub.git
+   ad95b0a..b49c21b  bug-fix-typo -> bug-fix-typo
+theia@theia-aveead99:/home/project/mcino-Introduction-to-Git-and-GitHub$ 
+git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+theia@theia-aveead99:/home/project/mcino-Introduction-to-Git-and-GitHub$ 
+git merge bug-fix-typo
+Merge made by the 'ort' strategy.
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ 
